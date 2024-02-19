@@ -3,7 +3,7 @@ var contentParagraph = document.getElementById("content");
 
 button.addEventListener("click", ()=> {
   var image = document.createElement("img");
-  image.src = "./task.png";
+  image.src = "./assets/task.png";
   contentParagraph.innerHTML = "";
   contentParagraph.appendChild(image);
 });
